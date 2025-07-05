@@ -1,0 +1,18 @@
+{
+  "name": "handson",
+  "version": "0.0.19",
+  "author": "tanabee",
+  "scripts": {
+    "start": "genkit start -o -- npx tsx --watch src/index.ts"
+  },
+  "dependencies": {
+    "@genkit-ai/express": "1.x",
+    "@genkit-ai/googleai": "1.x",
+    "cheerio": "^1.1.0",
+    "genkit": "1.x",
+    "genkit-cli": "1.x"
+  },
+  "bugs": {
+    "url": "https://github.com/tanabee/create-genkitx/issues"
+  }
+}

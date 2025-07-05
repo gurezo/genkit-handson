@@ -1,0 +1,25 @@
+{
+  "name": "mcp-exmple",
+  "version": "0.0.19",
+  "author": "tanabee",
+  "scripts": {
+    "start": "genkit start -o -- tsx --watch src/index.ts"
+  },
+  "description": "Genkit MCP template",
+  "dependencies": {
+    "@genkit-ai/express": "1.x",
+    "@genkit-ai/googleai": "1.x",
+    "dotenv": "16.x",
+    "genkit": "1.x",
+    "genkit-cli": "1.x",
+    "genkitx-mcp": "1.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tanabee/create-genkitx.git"
+  },
+  "homepage": "https://github.com/tanabee/create-genkitx#readme",
+  "bugs": {
+    "url": "https://github.com/tanabee/create-genkitx/issues"
+  }
+}
